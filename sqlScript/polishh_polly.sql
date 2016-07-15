@@ -1,0 +1,7 @@
+CREATE TABLE product(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(128),
+description TEXT,
+price DECIMAL(6,2),
+created_date TIMESTAMP
+);
